@@ -1,0 +1,21 @@
+/* Glass effect */
+textarea, button {
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Smooth animations */
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+
+/* Glow effect for result */
+#result {
+  color: #00ffcc;
+  text-shadow: 0 0 10px rgba(0,255,200,0.6);
+}
