@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Decision Spinner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎯 Decision Spinner</h1>
+
+<textarea id="input" placeholder="Enter decisions (one per line)
+work
+bath
+meal
+hangout with friends"></textarea>
+
+<div class="buttons">
+  <button onclick="buildWheel()">Build Wheel</button>
+  <button onclick="spinWheel()">Spin</button>
+</div>
+
+<canvas id="wheel" width="300" height="300"></canvas>
+
+<p id="result"></p>
+
+<!-- Sounds -->
+<audio id="spinSound" src="spin.mp3"></audio>
+<audio id="resultSound" src="result.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
